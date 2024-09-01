@@ -16,28 +16,27 @@ body{
 .titulo{
     text-align: center;
     font-family: "lora", sans-serif;
-    font-size: 4vw;
+    font-size: 2vw;
 
 }
 .sub-titulo{
     text-align: center;
     font-family: "lora", sans-serif;
-    font-size: 4vw;
+    font-size: 2vw;
     padding: 3% 0 20px;
 }
 .button-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 div button{
-   margin: 1rem;
+   margin: 0.5rem;
 }
 
 .button{
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 1rem;
     font-family: "franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     background-color: rgb(17, 18, 18);
     color: white;
@@ -58,7 +57,7 @@ div button{
     background-color: rgb(40, 214, 223);
 }
 .containerQuote{
-    margin-top: 7%;
+    margin-top: 3%;
     font-family: "Times New Roman", Times, serif;
     font-size: 3vw;
     text-align: center;
@@ -85,9 +84,21 @@ img{
 }
 @media (min-width: 1200px){
     .titulo{
-        font-size: 50px;
+        font-size: 30px;
     }
     .sub-titulo{
-        font-size: 40px;
+        font-size: 20px;
+    }
+    .containerQuote{
+        font-size: 30px;
+    }
+    .button{
+        width: auto;
+        height: auto;
+    }
+    img{
+        width: auto;
+        height: auto;
+        max-width: 550px;
     }
 }
