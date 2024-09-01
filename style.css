@@ -70,16 +70,23 @@ img{
 }
 @media (min-width: 768px){
     .titulo{
-        font-size: 40px;
+        font-size: 60px;
     }
     .sub-titulo{
-        font-size: 35px;
+        font-size: 45px;
     }
     .button{
-        font-size: 2rem;
+        font-size: 1rem;
+        width: auto;
+        height: auto;
     }
     .container{
         width: 80%;
+    }
+    img{
+        width: auto;
+        height: auto;
+        max-width: 100px;
     }
 }
 @media (min-width: 1200px){
