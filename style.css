@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@0,400;1,300&family=Sacramento&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+body{
+    background: radial-gradient(circle, #28f009, #c22d49 ) ;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.titulo{
+    text-align: center;
+    font-family: "lora", sans-serif;
+    font-size: 4vw;
+
+}
+.sub-titulo{
+    text-align: center;
+    font-family: "lora", sans-serif;
+    font-size: 4vw;
+    padding: 3% 0 20px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+div button{
+   margin: 1rem;
+}
+
+.button{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: rgb(17, 18, 18);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px 10px 5px 30px;
+    cursor: pointer;
+}
+#alegria:hover{
+    background-color: blue;
+}
+#triste:hover{
+    background-color: deeppink;
+}
+#enojo:hover{
+    background-color: red;
+}
+#miedo:hover{
+    background-color: rgb(40, 214, 223);
+}
+.containerQuote{
+    margin-top: 7%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3vw;
+    text-align: center;
+}
+img{
+    width: auto;
+    border-radius: 50%;
+    max-width: 100%;
+    margin-top: 40px;   
+}
+@media (min-width: 768px){
+    .titulo{
+        font-size: 40px;
+    }
+    .sub-titulo{
+        font-size: 35px;
+    }
+    .button{
+        font-size: 2rem;
+    }
+    .container{
+        width: 80%;
+    }
+}
+@media (min-width: 1200px){
+    .titulo{
+        font-size: 50px;
+    }
+    .sub-titulo{
+        font-size: 40px;
+    }
+}
