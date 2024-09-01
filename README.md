@@ -7,3 +7,5 @@ El segundo js contiene las funciones con las cuales hace la manipulacion
 del DOM
 
 La app esta hecha con CSS puro 
+
+* Puedes probar en https://alogm.github.io/Mensajes-random/
